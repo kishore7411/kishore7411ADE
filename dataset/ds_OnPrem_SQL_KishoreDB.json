@@ -1,0 +1,26 @@
+{
+	"name": "ds_OnPrem_SQL_KishoreDB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_OnPrem_KishoreDB",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"p_table_name": {
+				"type": "string",
+				"defaultValue": "Customer"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": {
+				"value": "@dataset().p_table_name",
+				"type": "Expression"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

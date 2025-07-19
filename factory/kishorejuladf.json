@@ -1,0 +1,9 @@
+{
+	"name": "kishorejuladf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "37e206fd-15f0-4569-9bad-6c4e816d2cc8",
+		"tenantId": "d8ae1ed7-e7f0-4117-b716-edc6217f2052"
+	}
+}
